@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ATMPROCESS.Models.MiniStatement>
+@{
+    Layout = "~/Views/Shared/_MainmenuLayout.cshtml";
+}
+
+<h6 class="justify-content-center">MiniStatement</h6>
+<br />
+
+@if (@ViewBag.Result != null)
+{
+    <form asp-action="MiniStatement" asp-controller="ATM">
+        <table class="table">
+            <thead>
+                <tr>
+
+                    <th>
+                        MiniStatementId
+                    </th>
+
+                    <th>
+                        AccountNumber
+                    </th>
+
+                    <th>
+                        DateTime
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var items in ViewBag.Result)
+                {
+                    <tr>
+                        <td>  @items.MinistatementId</td>
+                        <td>@items.AccountNumber</td>
+                        <td>  @items.DateTime</td>
+                        <td>  @items.status</td>
+             
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+        <br>
+        <br />
+        <a asp-action="MainMenu" asp-controller="ATM">Back</a>
+    </form>
+    }

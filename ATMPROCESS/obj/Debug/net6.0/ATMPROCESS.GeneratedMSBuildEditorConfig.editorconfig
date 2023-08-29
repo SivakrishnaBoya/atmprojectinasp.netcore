@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ATMPROCESS
+build_property.RootNamespace = ATMPROCESS
+build_property.ProjectDir = C:\Users\Admin\source\repos\ATMPROCESS\ATMPROCESS\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\ATMPROCESS\ATMPROCESS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/ATM/Changepassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXENoYW5nZXBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/ATM/CheckBalance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXENoZWNrQmFsYW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/ATM/Deposit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXERlcG9zaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/ATM/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/ATM/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXExvZ0luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/ATM/MainMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXE1haW5NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/ATM/MiniStatement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXE1pbmlTdGF0ZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/ATM/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/ATM/Withdraw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXFdpdGhkcmF3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/Shared/_HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/Shared/_MainmenuLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWlubWVudUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ATMPROCESS/ATMPROCESS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mey2b4k4pj

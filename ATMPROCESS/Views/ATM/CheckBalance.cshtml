@@ -1,0 +1,11 @@
+﻿@model ATMPROCESS.Models.Register
+@{
+    Layout = "~/Views/Shared/_MainmenuLayout.cshtml";
+ }
+<form asp-action="CheckBalance" asp-controller="ATM">
+    <lable>AccountNumber  Is </lable><label>@ViewBag.AccNo<pre></pre></label><span> Available Balance is  :  </span>
+<label> @ViewBag.amt</label>
+    <p>Minimum Balance : 2000</p>
+</form>
+<br />
+<a asp-action="MainMenu" asp-controller="ATM">Back</a>

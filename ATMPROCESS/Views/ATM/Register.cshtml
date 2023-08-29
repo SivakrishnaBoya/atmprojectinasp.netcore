@@ -1,0 +1,60 @@
+﻿@model ATMPROCESS.Models.Register
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<style>
+    .textBox{
+        width:250px;
+        height:25px;
+        border-radius:5px;
+    }
+    .Color{
+        color:green;
+    }
+</style>
+<h1>Register</h1>
+<form asp-action="Register" asp-controller="ATM" method="post" >
+    <table>
+        <tr>
+            <td>
+                <label asp-for="Name"></label>
+            </td>
+            <td><input asp-for="Name" class=" textBox form-control" required /></td>
+        </tr>
+      <tr>
+          <td>
+                <label asp-for="PhoneNumber"></label>
+            </td>
+            <td><input asp-for="PhoneNumber" class=" textBox form-control" required /></td>
+        </tr>
+    <tr>
+        <td>
+                <label asp-for="InitialAmount"></label>
+            </td>
+            <td>
+                <input asp-for="InitialAmount" class="textBox form-control " value="2000" readonly />
+            </td>
+        </tr>
+    
+    <tr>
+        <td><pre></pre></td>
+        <td>
+                <input type="submit" class="btn btn-primary" value="Register" />
+            </td>
+        </tr>
+    <br />
+    <tr>
+        <td>
+                <a asp-action="LogIn" asp-controller="ATM">LogIn</a>
+            </td>
+        </tr>
+    </table>
+</form>
+@if (ViewBag.Acc_No != null)
+{
+    <h5 class="Color">Account Created Successfully</h5>
+<br />
+<label> <span>Your Account Number Is  =</span>@ViewBag.Acc_No </label>
+<br />
+<label><span>User Pin Number Is  =</span>@ViewBag.PinNo</label>
+}

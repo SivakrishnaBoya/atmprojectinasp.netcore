@@ -1,0 +1,43 @@
+﻿@model ATMPROCESS.Models.Register
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<style>
+    .input{
+        width:150px;
+        height:25px;
+        border-radius:5px;
+    }
+</style>
+<div>
+
+<form asp-action="LogIn" asp-controller="ATM">
+
+    <table>
+            <tr><td><h1>LogIn</h1></td></tr>
+            <tr>
+                <td><label asp-for="AccountNumber"></label></td>
+                <td> <input asp-for="AccountNumber" class="form-control input" /></td>
+     </tr>
+    
+
+    <tr>
+                <td> <label asp-for="Pin"></label></td>
+                <td><input asp-for="Pin" class="form-control input" /></td>
+            </tr>
+
+    <tr>
+                <td> <pre></pre></td>
+                <td> <input type="submit" value="LogIn" class="btn btn-primary" /></td>
+    </tr>
+
+    <tr>
+                <td> <a asp-action="Register" asp-controller="ATM">SignUp</a></td>
+            </tr>
+        </table>
+</form>
+</div>
+@if (ViewBag.Result != null)
+{
+    <label>@ViewBag.Result</label>
+}

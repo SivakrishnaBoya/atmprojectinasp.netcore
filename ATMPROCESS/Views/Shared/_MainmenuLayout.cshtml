@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<body>
+    <div>
+        <table border="2" width="1350" cellpadding="5" cellspacing="5">
+            <tr style="background-color:aqua;color:white">
+                <td colspan="2">
+                    <center>
+                        <h1>ATM Machine</h1>
+
+                    </center>
+                </td>
+            </tr>
+            <tr style="background-color:orchid;color:white; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                <td height="450" width="500">
+                       <div>
+      <h1>Menu Main <pre></pre><label>@ViewBag.AccountN</label></h1>
+      <br>
+        <a asp-action="Deposit"asp-controller="ATM" >Deposite</a>
+    </div>
+    <br />
+    <br />
+    <div>
+        <a asp-action="Withdraw" asp-controller="ATM">Withdraw</a>
+    </div>
+    <br />
+    <br />
+    <div>
+        <a asp-action="Changepassword" asp-controller="ATM">Change Password</a>
+    </div>
+    <br />
+    <br />
+    <div>
+        <a asp-action="CheckBalance" asp-controller="ATM">Check Balance</a>
+    </div
+    <br />
+    <br />
+    <div>
+        <a asp-action="MiniStatement" asp-controller="ATM">MiniStatement</a>
+    </div>
+    <br />
+    <br />
+    <div>
+        <a asp-action="LogOut" asp-controller="ATM">LogOut</a>
+    </div>
+                </td>
+                <td height="500" width="1000">
+                    @RenderBody()
+                </td>
+            </tr>
+            <tr style="background-color:black;color:pink; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                <td colspan="6"><center>Our Address: 10th Floor, Sandhya Techno1,Khajaguda X Roads, Hyderabad</center></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
+
+

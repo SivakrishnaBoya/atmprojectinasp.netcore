@@ -1,0 +1,29 @@
+﻿ @model ATMPROCESS.Models.Register
+ @{
+    Layout = "~/Views/Shared/_MainmenuLayout.cshtml";
+ }
+ <label><span>Account Number is  :</span>@ViewBag.AccNo</label>
+ <form asp-action="Deposit" asp-controller="ATM" method="post">
+ <br />
+ <div>
+ <label>Amount</label>
+ <input type="number" name="Amt" asp-for="InitialAmount" />
+ </div>
+ <br />
+ <br />
+ <div>
+ <input type="submit"  value="deposite" class="btn btn-primary"/>
+ </div>
+    
+ </form>
+@if(ViewBag.AccNo != null)
+{
+    <label>Deposite Sucessfully </label>
+    <br />
+    <br/>
+    <label><span>AccountNumber Is:</span><span>  </span>@ViewBag.AccNo <span>  </span> <span>Deposite Amount is  :</span><span>  </span><span>@ViewBag.Amount</span></label>
+}
+
+<br />
+<a asp-action="MainMenu" asp-controller="ATM">Back</a>
+
